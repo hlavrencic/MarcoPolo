@@ -1,7 +1,6 @@
 #ifndef H_WifiConnect
     #define H_WifiConnect
     #include <Arduino.h>
-    #include <functional>
     #include "WiFi.h"
 
     typedef std::function<void(IPAddress ip)> OnConnectEvent;
